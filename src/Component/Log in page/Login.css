@@ -1,0 +1,46 @@
+
+h3 {
+  position: absolute;
+  top: 70px;
+  left: 25%;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+.underline{
+  display: grid;
+  grid-template-columns: 5fr 2fr 5fr;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+hr{
+  height: fit-content;
+  width: 120px;
+}
+p {
+  color:#657786;
+  margin-left: 0;
+}
+.login-text p {
+  max-width: 400px;
+  line-height: 1.4;
+  padding: 10px 0;
+  font-weight: 400;
+  font-size: 15px;
+
+}
+.longin-text2 p {
+  max-width: 250px;
+  font-weight: 400;
+  font-size: 15px;
+  position: absolute;
+  top: 80%;
+}
+a {
+  color:rgb(26, 145, 218);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
